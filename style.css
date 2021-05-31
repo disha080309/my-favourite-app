@@ -1,8 +1,16 @@
 body {
     margin: 0;
-    padding-top: 800px;
-}
+    padding-top: 800px;}
+    
+    .menu {
+    font-family: fantasy;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
 
+}
 #sec1 {
     position: absolute;
     overflow: hidden;
@@ -84,4 +92,26 @@ p{
     background: linear-gradient(	rgb(290, 0, 290)0%, 	rgb(255, 0, 64) 100%);
     padding: 50px;
     text-align: center;
+}
+#sec5{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+  background: linear-gradient(	rgb(290, 0, 290)0%, 	rgb(255, 0, 64) 100%);
+}
+#email{
+    font-size: 20px;
+}
+#account{
+    font-size: 20px;
+}
+#contact iframe {
+    width: 100%;
+}
+h3{
+  display: inline;
+}
+ a{
+    color: white;
+    text-shadow: none;
 }
